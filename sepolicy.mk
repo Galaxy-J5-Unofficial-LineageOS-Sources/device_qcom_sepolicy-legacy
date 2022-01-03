@@ -11,10 +11,10 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     device/qcom/sepolicy-legacy/public
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/qcom/sepolicy-legacy/private
 
 # Board specific SELinux policy variable definitions for legacy devices
